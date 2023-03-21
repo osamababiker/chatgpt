@@ -5,7 +5,7 @@ import '../constants/constants.dart';
 import '../widgets/text_widget.dart';
 
 class Services {
-  static Future<void> showModalSheet (BuildContext context) async {
+  static Future<void> showModalSheet ({required BuildContext context}) async {
     await showModalBottomSheet(
       backgroundColor: scaffoldBackgroundColor,
       shape: const RoundedRectangleBorder(
